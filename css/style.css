@@ -251,12 +251,19 @@ list-benefits{
   text-align: center;
 }
 .section-four {
-    padding-top: 120px 0;
-    padding-bottom: 120px 0;
-    border: 1px solid #e7e9fc ;
-    margin-bottom: 8px;
+  padding-top: 120px 0;
+  padding-bottom: 120px 0;
+  border: 1px solid #e7e9fc ;
+  margin-bottom: 8px;
 }
 /* yukarıdaki son üç hata sonucu eklendi */
+
+/* 4. bölüm gelen hatalar düzeltmesi */
+.app-function {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none    
+}
 
 .footer-page {
   background-color: #2E2F42;
