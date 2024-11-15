@@ -131,10 +131,14 @@ header .logo-web {
   flex-shrink: 0;
 }
 
-.section-one,
+
 .section-second ul,
 .list-portfolio {
   display: flex;
+}
+.section-one{
+  display: flex;
+  flex-direction: column;
 }
 
 .list-portfolio {
