@@ -58,7 +58,7 @@ header {
 .team-members,
 .list-portfolio {
   display: flex;
-  gap: 40px;
+  gap: 24px;
 }
 
 header .logo-web,
@@ -126,6 +126,37 @@ header .logo-web {
   display: flex;
 }
 
+.list-portfolio {
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+/* 2. bölüm hata gelen */
+.section-second{
+  padding: 120px 0;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+list-benefits{
+  gap:24px ;
+}
+
+.punkt {
+  width: calc((1128px - 72px) / 4);
+  flex-shrink: 0;
+}
+/* 2. bölüm hata gelen sonu */
+
 .big-title {
   max-width: 496px;
   color: #FFFFFF;
@@ -189,6 +220,7 @@ header .logo-web {
   letter-spacing: 0.02em;
   color: #2E2F42;
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .their-job {
@@ -199,6 +231,14 @@ header .logo-web {
   letter-spacing: 0.02em;
   text-align: center;
 }
+.section-four {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc ;
+    margin-bottom: 8px;
+}
+/* yukarıdaki son üç hata sonucu eklendi */
 
 .footer-page {
   background-color: #2E2F42;
