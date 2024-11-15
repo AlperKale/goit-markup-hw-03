@@ -1,9 +1,30 @@
 body {
-  font-family: "Roboto", sans-serif;
-  color: #434455;
-  background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+      line-height: 24px;
+      color: #434455;
+      font-size: 16px;
+      background-color: #FFFFFF;
+      min-height: 100vh;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  font-style: normal;
 }
 
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
 .brand-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -172,4 +193,10 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
