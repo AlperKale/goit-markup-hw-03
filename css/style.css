@@ -25,6 +25,12 @@ img {
   height: auto;
   max-width: 100%;
 }
+
+.container {
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
 .brand-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -161,6 +167,9 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  display: inline-block;
+  text-align: left;
+  margin-bottom: 8px;
 }
 
 .project-category {
@@ -172,16 +181,20 @@ img {
 
 .site-footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .footer-logo {
-  font-family: "Raleway", sans-serif;
+  color: #4D5AE5;
   font-weight: 700;
   font-size: 18px;
+  display: block;
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
+  margin-bottom: 16px;
 }
 
 .footer-highlight {
@@ -193,6 +206,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  width: 264px;
 }
 ul,
 ol {
