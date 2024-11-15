@@ -67,6 +67,9 @@ header {
 .address-list{
   gap: 40px;
 }
+.studio-link{
+  padding: 24px;
+}
 /* gelen hata düzeltme sonu*/
 
 header .logo-web,
