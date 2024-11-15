@@ -41,7 +41,14 @@ img {
   padding: 0 15px;
   margin: 0 auto;
 }
+/* son 4 hata için kod kısmı */
+.studio-link {
+  padding: 24px 0;
+}
 
+
+
+/* son 4 hata için kod kısmı */
 header {
   color: #FFFFFF;
   border-bottom: 1px solid #E7E9FC;
@@ -67,9 +74,7 @@ header {
 .address-list{
   gap: 40px;
 }
-.studio-link{
-  padding: 24px;
-}
+
 /* gelen hata düzeltme sonu*/
 
 header .logo-web,
