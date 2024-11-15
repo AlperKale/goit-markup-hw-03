@@ -159,7 +159,7 @@ header .logo-web {
   overflow: hidden;
 }
 list-benefits{
-  gap:24px ;
+  gap: 24px;
 }
 
 .punkt {
@@ -209,6 +209,14 @@ list-benefits{
   background-color: #FFFFFF;
 }
 
+/* 3 bölüm gelen hata düzeltme */
+
+.port-list {
+  background-color: white;
+  display: block;
+  border-radius: 0px 0px 4px 4px;
+}
+/* 3 bölüm gelen hata düzeltme sonu */
 .introduction,
 .introduction-two {
   text-transform: capitalize;
@@ -243,9 +251,8 @@ list-benefits{
   text-align: center;
 }
 .section-four {
-    padding-top: 120px;
-    padding-bottom: 120px;
-    padding: 32px 16px;
+    padding-top: 120px 0;
+    padding-bottom: 120px 0;
     border: 1px solid #e7e9fc ;
     margin-bottom: 8px;
 }
