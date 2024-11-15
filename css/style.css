@@ -60,6 +60,14 @@ header {
   display: flex;
   gap: 24px;
 }
+/* gelen hata düzeltme */
+.header-links{
+  gap: 40px;
+}
+.address-list{
+  gap: 40px;
+}
+/* gelen hata düzeltme sonu*/
 
 header .logo-web,
 .logo-studio,
