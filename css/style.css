@@ -275,6 +275,14 @@ list-benefits{
   margin-bottom: 8px;
 }
 
+/* son 1 hata düzeltmesi için */
+.their-name-port {
+  display: inline-block;
+  text-align: left;
+  font-weight: 500;
+  margin-bottom: 8px;
+} 
+
 .footer-page {
   background-color: #2E2F42;
   padding: 100px 0;
